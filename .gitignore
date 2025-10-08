@@ -1,0 +1,56 @@
+## Build / Publish / Temp
+bin/
+obj/
+out/
+TestResults/
+*.log
+
+## Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+*.sln.iml
+
+## .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+*.nupkg
+
+## Entity Framework
+Migrations/
+
+## Secrets
+secrets.json
+**/appsettings.*.json
+!**/appsettings.json
+
+## Paket
+.paket/
+paket-files/
+
+## NPM / Front-End
+node_modules/
+dist/
+coverage/
+
+## Others
+.env
+*.db
+*.sqlite
+*.bak
+*.mdf
+*.log
+*.tgz
+
+## OS-specific
+.DS_Store
+Thumbs.db
